@@ -23,7 +23,7 @@ const paths = {
   webpackFile: 'webpack.config.babel.js',
   libDir: 'lib',
   distDir: 'dist',
-  moduleDir: 'module',
+  moduleDir: 'dist/module',
 };
 
 gulp.task('lint', () =>
@@ -41,7 +41,6 @@ gulp.task('lint', () =>
 gulp.task('clean', () => del([
   paths.libDir,
   paths.distDir,
-  paths.moduleDir,
 ]));
 
 gulp.task('commonjs', ['clean'], () =>
