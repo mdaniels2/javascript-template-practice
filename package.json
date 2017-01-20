@@ -1,15 +1,10 @@
 {
   "name": "js-tutorial",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "lib/shared/api.js",
   "license": "MIT",
   "scripts": {
     "start": "gulp"
-  },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
   },
   "eslintConfig": {
     "extends": "airbnb",
