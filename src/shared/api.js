@@ -7,5 +7,3 @@ export default class Api {
     return `I am making a ${this.method} method call.`;
   }
 }
-
-module.exports = Api;
