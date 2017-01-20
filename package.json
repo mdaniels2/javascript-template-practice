@@ -1,5 +1,5 @@
 {
-  "name": "js-tutorial",
+  "name": "cb-auth",
   "version": "1.0.1",
   "main": "lib/shared/api.js",
   "license": "MIT",
