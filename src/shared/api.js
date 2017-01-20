@@ -1,4 +1,4 @@
-class Api {
+export default class Api {
   constructor(method) {
     this.method = method;
   }
@@ -8,4 +8,4 @@ class Api {
   }
 }
 
-module.exports = new Api.('GET');
+module.exports = Api;

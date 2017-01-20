@@ -1,5 +1,5 @@
 require.register("/Users/madaniels/js-tutorial/src/shared/api.js", function(exports, require, module){
-  class Api {
+  export default class Api {
   constructor(method) {
     this.method = method;
   }
